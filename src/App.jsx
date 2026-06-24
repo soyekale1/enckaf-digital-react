@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <>
       <nav className="navbar">
         <h2>Enckaf Digital</h2>
 
@@ -25,7 +25,36 @@ function App() {
 
         <button>Book Consultation</button>
       </section>
-    </div>
+
+      <section className="services">
+        <h2>Our Services</h2>
+
+        <div className="cards">
+
+          <div className="card">
+            <h3>AWS Cloud</h3>
+            <p>
+              Architecture, Migration, Security and Cloud Optimization.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3>AI Agents</h3>
+            <p>
+              WhatsApp AI Agents, Customer Support Bots and Automation.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3>Training</h3>
+            <p>
+              AWS Cloud Training for Students and Professionals.
+            </p>
+          </div>
+
+        </div>
+      </section>
+    </>
   );
 }
 
