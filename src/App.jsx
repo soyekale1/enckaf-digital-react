@@ -54,6 +54,51 @@ function App() {
 
         </div>
       </section>
+      <section className="services">
+  <h2>AI Agent Solutions</h2>
+
+  <div className="cards">
+    <div className="card">
+      <h3>WhatsApp AI Agents</h3>
+      <p>Automate customer support and lead generation.</p>
+    </div>
+
+    <div className="card">
+      <h3>Business Automation</h3>
+      <p>Automate workflows using AWS and AI.</p>
+    </div>
+
+    <div className="card">
+      <h3>Custom AI Solutions</h3>
+      <p>Tailored AI assistants for organizations.</p>
+    </div>
+  </div>
+</section><section className="services">
+  <h2>AWS Training Programs</h2>
+
+  <div className="cards">
+    <div className="card">
+      <h3>AWS Cloud Practitioner</h3>
+      <p>
+        Learn cloud fundamentals and prepare for AWS certification.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>AWS Solutions Architect</h3>
+      <p>
+        Design scalable, secure and highly available AWS architectures.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>AWS DevOps & AI</h3>
+      <p>
+        Learn CI/CD, automation, AI services and modern cloud operations.
+      </p>
+    </div>
+  </div>
+</section>    
     </>
   );
 }
