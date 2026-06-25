@@ -98,7 +98,42 @@ function App() {
       </p>
     </div>
   </div>
-</section>    
+</section> <section className="services">
+  <h2>Consulting Services</h2>
+
+  <div className="cards">
+    <div className="card">
+      <h3>AWS Cloud Consulting</h3>
+      <p>
+        Cloud migration, architecture reviews, security and cost optimization.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>DevOps Consulting</h3>
+      <p>
+        CI/CD pipelines, infrastructure automation and deployment strategies.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>AI Transformation</h3>
+      <p>
+        Help organizations adopt AI agents and intelligent automation.
+      </p>
+    </div>
+  </div>
+</section>  <section className="contact">
+  <h2>Contact Enckaf Digital</h2>
+
+  <p>Email: info@enckafdigital.com</p>
+
+  <p>Location: Lagos, Nigeria</p>
+
+  <p>Services: AWS Cloud, AI Agents, Training & Consulting</p>
+
+  <button>Contact Us Today</button>
+</section> 
     </>
   );
 }
